@@ -1,11 +1,6 @@
 import calculator
 import streamlit as st
 
-
-# Using object notation
-# with st.sidebar:
-#     st.title("Loan Calculators")
-
 tab1, tab2, tab3 = st.tabs([
     "EMI Calculator", "Tenure Calculator", "SIP Calculator"
 ])
